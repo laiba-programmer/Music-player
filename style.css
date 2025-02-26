@@ -1,0 +1,50 @@
+body{
+  /* for gradiant color */
+    background-image: linear-gradient(rgb(158, 50, 68), hwb(300 0% 50%), hsl(197, 78%, 58%));
+    background-repeat: no-repeat;
+    height:620px ;
+    overflow: hidden;
+}
+
+.container {
+  
+margin: auto;
+    width:300px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10%;
+    /* left anfd right */
+  padding: 0px 100px;
+  background-color:rgb(212, 97, 136);
+  box-shadow:0px 0px 3px 9px pink, 0px 0px 10px 15px wheat, 0px 15px 3px 9px rgb(167, 36, 58)  ;
+  position: relative;
+  top: 50px ;
+
+}
+.container:hover{
+    box-shadow: 0px 0px 10px 15px wheat, 10px 10px 10px 30px rgb(199, 96, 113); 
+}
+
+p,h1{
+    text-align: center;
+}
+img{
+    padding-left: -40px;
+}
+.container .logo{
+    width:150px ;
+    border-radius: 50%;
+    margin-left: 70px;
+    border: 8px double rgb(230, 100, 122);
+    box-shadow:0px 0px 3px 9px pink ;
+}
+
+.gif{
+  position: relative;
+  left:100px ;
+}
+.gift{
+    position: relative;
+  left:100px ;
+}
+
